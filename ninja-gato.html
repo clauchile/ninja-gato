@@ -15,7 +15,6 @@
         * img {
             width: 300px;
             margin: 2px;
-
         }
     </style>
 </head>
@@ -53,16 +52,16 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-    // $(".container img").addClass("d-block");
+        // $(".container img").addClass("d-block");
 
-    $("img").click(function(){
-        let pivot = $(this).attr("src");
-        let second = $(this).attr("resp");
-        
+        $("img").click(function () {
+            let pivot = $(this).attr("src");
+            let second = $(this).attr("resp");
 
-        $(this).attr("src", second);
-        $(this).attr("resp", pivot);
-    })
+
+            $(this).attr("src", second);
+            $(this).attr("resp", pivot);
+        })
 
     </script>
 </body>
